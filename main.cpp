@@ -5,7 +5,8 @@ int main()
 {
     int n, i, j, k, l, t, z;
     cin >> k >> l;
-    int a[k][l];
+    int **a=nullptr;
+    *a=new int[k][l];
     i = j = z = 0;
     t = 1;
     for (n = 0; n <= k * l; n++) {
