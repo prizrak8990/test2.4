@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main()
@@ -74,7 +75,7 @@ for(n=0; n <= k*l ; n++)
 for( i = 0 ; i < k ; i++ )
 {
 	 for( j=0; j < l ; j++)
-		  cout << a[i][j] << " ";
+		  cout << setw(4) << a[i][j] << " ";
 	cout << endl;
 }
 return 0;
